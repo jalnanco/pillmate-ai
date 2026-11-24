@@ -1,0 +1,52 @@
+/* PillMate AI Custom Styles */
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Print Stylesheet for Report Export */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  header, aside, footer, #section-chat, #key-modal, #arch-modal,
+  #preset-container, #category-filter-container, #quick-chips-container,
+  #pill-search-input, #autocomplete-list, #btn-reset-all, .no-print {
+    display: none !important;
+  }
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+  .lg\:col-span-5, .lg\:col-span-7 {
+    width: 100% !important;
+  }
+  .bg-white, .bg-slate-50 {
+    box-shadow: none !important;
+    border-color: #e2e8f0 !important;
+  }
+}
