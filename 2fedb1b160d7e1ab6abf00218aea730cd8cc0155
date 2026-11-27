@@ -1,0 +1,22 @@
+README.md
+  h_dcdd88072d6818 1-56
+app.js
+  h_dcdd88072d6818 1-844
+data.js
+  h_dcdd88072d6818 1-531
+index.html
+  h_dcdd88072d6818 1-467
+style.css
+  h_dcdd88072d6818 1-52
+---
+{
+  "schema_version": "zax-attestation/1.2.0",
+  "base_commit_sha": "2fedb1b160d7e1ab6abf00218aea730cd8cc0155",
+  "prompts": {},
+  "humans": {
+    "h_dcdd88072d6818": {
+      "author": "jihobada@gmail.com"
+    }
+  },
+  "attribution_source": "human_fallback"
+}
